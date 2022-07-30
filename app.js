@@ -1,5 +1,14 @@
-app = () => {
-    //code here
-    console.log("Hello World");
+// functions
+
+print = (message) => {
+    console.log(message);
+
 }
+
+app = () => {
+    // code here
+    print('Hello World');
+
+}
+
 app();
